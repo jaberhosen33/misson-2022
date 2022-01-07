@@ -111,7 +111,7 @@ header div img{
    
 }
 .devolop div {
-    width: 40p%;
+    width: 40%;
     margin-left: 80px;
 }
 .devolop-doc{
@@ -136,14 +136,16 @@ header div img{
  
 }
 .devolop img{
-    width: 60%;
-    height: 60p%;
+    width: 70%;
+    height: 70p%;
+    padding-left: 100px;
 }
-.devolop-img{
+.devolop_img{
     background-image: url(/img/shapes/shape-1.png);
     background-repeat: no-repeat; 
-  
-}
+  background-size: 50% 60%;
+  background-position:left center;
+} 
 
 
 
@@ -165,8 +167,9 @@ header div img{
 
 }
 .global img{
-   width: 80%;
-   margin-left: 80px;
+   width: 70%;
+   margin-left: 70px;
+   padding-bottom: 50px;
  
     
     
@@ -187,4 +190,67 @@ header div img{
     border-radius: 15px;
     color: rgb(255, 255, 255);
 
+}
+.global-img{
+    background-image: url(/img/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 40% 40%;
+}
+/* corna-head */
+.corna-head h1{
+    text-align: center;
+    font-size: 60px;
+    padding-top: 20px;
+    padding-left: 30px;
+
+
+}
+.corna-head span{
+    color: deeppink;
+}
+.application{
+    display: flex;
+}
+.application div{
+    margin-left: 80px;
+    width: 40%;
+
+}
+.application img{
+    width: 80%;
+    height: 70%;
+}
+.application-details{
+    padding-top: 100px;
+}
+.application-details h1{
+    font-size: 50px;
+}
+.application-details p{
+    font-size: 17px;
+    padding-bottom: 15px;
+}
+.application-details a{
+    padding: 10px 20px;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    text-decoration: none;
+    color: beige;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+footer h1{
+    text-align: center;
+    color: rgba(146, 52, 23, 0.911);
+    padding-top: 15px;
+    font-size: 50px;
+}
+footer p{
+    text-align: center;
+    color: silver;
+}
+footer{
+    background-color:rgb(8, 10, 27);
+    height: 150px;
 }
