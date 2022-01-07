@@ -141,7 +141,7 @@ header div img{
     padding-left: 100px;
 }
 .devolop_img{
-    background-image: url("../img/shapes/shape-1.png");
+    background-image: url(../img/shapes/shape-1.png);
     background-repeat: no-repeat; 
   background-size: 50% 60%;
   background-position:left center;
@@ -193,7 +193,7 @@ header div img{
 
 }
 .global-img{
-    background-image: url("../img/shapes/shape-1.png");
+    background-image: url(../img/shapes/shape-1.png);
     background-repeat: no-repeat;
     background-position: right bottom;
     background-size: 40% 40%;
