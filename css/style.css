@@ -1,0 +1,190 @@
+body{
+ margin: 0;   
+}
+header{
+    display: flex;
+}
+header div h1{
+    border-left: 5px solid rgb(212, 39, 8);
+    font-size: 55px;
+padding-left: 10px;
+   
+}
+header div{
+    padding-left: 80px;
+    width: 40%;
+  
+
+}
+.head p{
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.head{
+    padding-left: 80px;
+    width: 40%;
+    padding-top: 80px;
+}
+.head span{
+    color: rgb(210, 72, 30);
+}
+header div a{
+    padding: 10px 20px;
+   background-color: rgb(19, 209, 216);
+    text-decoration: none;
+    color: aliceblue;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+header div img{
+    width: 100%;
+    height: 80%;
+}
+.my-mission h1{
+    color: rgb(210, 72, 30);
+    text-align: center;
+    font-size: 60px;
+    text-transform: uppercase;
+}
+.my-mission span{
+    color: rgba(8, 8, 51, 0.589);
+}
+/* my mission */
+.my-mission-2022{
+    display: flex;
+
+}
+.mission{
+    margin-left: 80px;
+    background-color: rgb(173, 158, 209);
+    width: 30%;
+    height: 450px;
+    border-radius: 15px;
+    padding-left: 15px;
+   
+}
+.mission img {
+    width: 60%;
+    height: 60%;
+}
+.mission h1{
+    font-size: 40px;
+}
+.vission{
+    margin-left: 60px;
+    background-color: rgb(119, 192, 192);
+    width: 30%;
+    height: 450px;
+    border-radius: 15px;
+    padding-left: 15px;
+   
+}
+.vission img {
+    width: 60%;
+    height: 60%;
+}
+.vission h1{
+    font-size: 40px;
+}
+.goals{
+    margin-left: 60px;
+    background-color: rgb(182, 145, 166);
+    width: 30%;
+    height: 450px;
+    border-radius: 15px;
+    padding-left: 15px;
+    margin-right: 80px;
+   
+}
+.goals img {
+    width: 60%;
+    height: 60%;
+}
+.goals h1{
+    font-size: 40px;
+}
+/* devolop */
+.devolop{
+    display: flex;
+    margin-top: 100px;
+   
+}
+.devolop div {
+    width: 40p%;
+    margin-left: 80px;
+}
+.devolop-doc{
+    width: 40%;
+    margin-right: 80px;
+
+}
+.devolop-doc h1{
+    font-size: 55px;
+    padding-top: 15px;
+}
+.devolop-doc p{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.devolop-doc a{
+    padding: 15px 25px;
+    background-color: rgba(158, 55, 103, 0.822);
+    text-decoration: none;
+    border-radius: 15px;
+    color: rgb(255, 255, 255);
+ 
+}
+.devolop img{
+    width: 60%;
+    height: 60p%;
+}
+.devolop-img{
+    background-image: url(/img/shapes/shape-1.png);
+    background-repeat: no-repeat; 
+  
+}
+
+
+
+
+
+
+
+
+/* global */
+.global{
+    display: flex;
+    margin-top: 100px;
+  
+}
+.global div{
+    margin-left: 80px;
+    width: 40%;
+
+
+}
+.global img{
+   width: 80%;
+   margin-left: 80px;
+ 
+    
+    
+}
+.global h1{
+    font-size: 55px;
+    padding-top: 15px;
+}
+.global p{
+    font-size: 20px;
+    padding-bottom: 20px;
+
+}
+.global a{
+    padding: 15px 25px;
+    background-color: rgba(228, 79, 68, 0.822);
+    text-decoration: none;
+    border-radius: 15px;
+    color: rgb(255, 255, 255);
+
+}
